@@ -1,6 +1,6 @@
 import './Header.css';
-import { Navlink } from 'react-router-dom';
-import prof from './prof.png'
+import { NavLink } from 'react-router-dom';
+import prof from '../../prof.png'
 function Header() {
 
 
@@ -9,12 +9,18 @@ function Header() {
     <header>
       <div className="topBar">
         <h1 className="name">Connor Fakelastname</h1>
+        <img href={prof} alt="headshot of Connor Fakelastname"/>
       </div>
-      <img />
-      <NavLink to='/' className="navBtn" activeClassName="selected">Home</NavLink>
-      <NavLink to='/About' className="navBtn" activeClassName="selected">About</NavLink>
-      <NavLink to='/Portfolio' className="navBtn" activeClassName="selected">Portfolio</NavLink>
+      <div className="btmbox">
+        <div className="links">
+          <NavLink exact to='/' className="navBtn hovershdw" activeClassName="selected">Home</NavLink>
+          <NavLink to='/About' className="navBtn hovershdw" activeClassName="selected">About</NavLink>
+          <NavLink to='/Portfolio' className="navBtn hovershdw" activeClassName="selected">Portfolio</NavLink>
+        </div>
+      </div>
     </header>
   )
 
 }
+
+export default Header;

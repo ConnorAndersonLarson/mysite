@@ -1,4 +1,5 @@
 import './App.css';
+import Header from '../Header/Header.js';
 import Home from '../Home/Home.js';
 import About from '../About/About.js';
 import Portfolio from '../Portfolio/Portfolio.js';

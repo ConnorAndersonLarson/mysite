@@ -7,3 +7,6 @@ function Portfolio() {
       <h2>Test Portfolio</h2>
     </section>
   )
+}
+
+export default Portfolio;

@@ -7,3 +7,6 @@ function Home() {
       <h2>Test Home</h2>
     </section>
   )
+}
+
+export default Home;

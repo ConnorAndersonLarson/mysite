@@ -7,3 +7,6 @@ function About() {
       <h2>Test About</h2>
     </section>
   )
+}
+
+export default About;
