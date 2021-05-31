@@ -1,0 +1,32 @@
+footer {
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #FDF6F9;
+}
+
+.footerBtn {
+  width: 100px;
+  height: 33px;
+  text-align: center;
+  padding-top: 10px;
+  box-shadow:
+    inset 0px 0px 0px 0 #FFF,
+    inset 0px 0px 0px 0 #D1D9E6,
+    3px 3px 3px 0 #D1D9E6,
+    -3px -3px 3px 0 #FFF;
+  border-radius: 15px;
+  background-color: #FDF6F9;
+  font-size: 17px;
+  transition: .1s linear 0s;
+}
+
+.footerBtn:hover {
+  font-size: 15px;
+  box-shadow:
+    inset 5px 5px 5px 0 #FFF,
+    inset -5px -5px 5px 0 #D1D9E6,
+    0px 0px 0px 0 #D1D9E6,
+    0px 0px 0px 0 #FFF;
+}

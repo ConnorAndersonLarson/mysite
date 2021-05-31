@@ -3,6 +3,7 @@ import Header from '../Header/Header.js';
 import Home from '../Home/Home.js';
 import About from '../About/About.js';
 import Portfolio from '../Portfolio/Portfolio.js';
+import Footer from '../Footer/Footer.js';
 import { Route, Switch } from 'react-router';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Route exact path="/Portfolio" render={() => <Portfolio />} />
         </Switch>
       </div>
+      <Footer />
     </div>
   );
 }

@@ -70,11 +70,13 @@ header {
     -3px -3px 3px 0 #FDF6F9;
   border-radius: 0 0 15px 15px;
   background-color: #ECF0F3;
-  transition: box-shadow .1s linear 0s;
+  font-size: 17px;
+  transition: .1s linear 0s;
 }
 
 
 .selected, .navBtn:hover {
+  font-size: 15px;
   box-shadow:
     inset 5px 5px 5px 0 #FDF6F9,
     inset -5px -5px 5px 0 #D1D9E6,
