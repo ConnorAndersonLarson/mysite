@@ -1,8 +1,66 @@
 
+li {
+  font-weight: 300;
+}
+
 .title {
   display: grid;
   grid-template-columns: 3.5fr 2fr;
   grid-template-rows: 1fr;
   grid-template-areas:
     "name .";
+}
+
+.aboutGrid {
+  overflow: scroll;
+  display: grid;
+  grid-template-columns: 3.5fr 2fr;
+  grid-template-rows: 110px auto;
+  grid-template-areas:
+    "about ."
+    "about lists";
+  width: 100vw;
+  padding:0px;
+}
+
+.skills {
+  grid-area: lists;
+  width: 300px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 35px 1fr 35px 1fr;
+  grid-template-areas:
+    "headerOne headerOne"
+    "techOne techTwo"
+    "headerTwo headerTwo"
+    "skills skills";
+}
+
+.tOne {
+  grid-area: headerOne;
+}
+
+.lOne {
+  grid-area: techOne;
+}
+
+.lTwo {
+  grid-area: techTwo
+}
+
+.tTwo {
+  grid-area: headerTwo;
+}
+
+.lThree {
+  grid-area: skills;
+}
+
+.lTitle {
+  align-self: center;
+  font-weight: normal;
+}
+
+.list {
+  padding: 0 10px 0 23px;
 }
