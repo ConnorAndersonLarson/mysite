@@ -1,0 +1,12 @@
+.caption {
+  font-size: 3vw;
+  grid-area: name;
+}
+
+.title {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  grid-template-rows: 1fr;
+  grid-template-areas:
+    "name ."
+}

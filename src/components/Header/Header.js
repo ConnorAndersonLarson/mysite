@@ -9,7 +9,7 @@ function Header() {
     <header>
       <div className="topBar">
         <h1 className="name">Connor Fakelastname</h1>
-        <img href={prof} alt="headshot of Connor Fakelastname"/>
+        <img className="headShot" src={prof} alt="headshot of Connor Fakelastname"/>
       </div>
       <div className="btmbox">
         <div className="links">

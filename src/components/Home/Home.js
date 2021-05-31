@@ -4,7 +4,9 @@ function Home() {
 
   return(
     <section>
-      <h2>Test Home</h2>
+      <div className="title">
+        <h2 className="caption">My Latest Project</h2>
+      </div>
     </section>
   )
 }

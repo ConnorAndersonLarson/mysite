@@ -9,11 +9,13 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Switch>
-        <Route exact path="/" render={() => <Home />} />
-        <Route exact path="/About" render={() => <About />} />
-        <Route exact path="/Portfolio" render={() => <Portfolio />} />
-      </Switch>
+      <div className="body">
+        <Switch>
+          <Route exact path="/" render={() => <Home />} />
+          <Route exact path="/About" render={() => <About />} />
+          <Route exact path="/Portfolio" render={() => <Portfolio />} />
+        </Switch>
+      </div>
     </div>
   );
 }

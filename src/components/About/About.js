@@ -4,7 +4,9 @@ function About() {
 
   return(
     <section>
-      <h2>Test About</h2>
+      <div className="title">
+        <h2 className="caption">About Me</h2>
+      </div>
     </section>
   )
 }

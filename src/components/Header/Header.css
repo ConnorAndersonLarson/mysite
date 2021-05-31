@@ -22,6 +22,16 @@ header {
 
 .name {
   grid-area: name;
+  font-size: 4.5vw;
+  margin-bottom: .5vh;
+}
+
+.headShot {
+  grid-area: photo;
+  max-height: 300px;
+  min-height: 150px;
+  margin-left: 5vw;
+  margin-top: 5vh;
 }
 
 .btmbox {
