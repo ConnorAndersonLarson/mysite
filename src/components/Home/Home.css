@@ -1,11 +1,14 @@
 .caption {
+  margin-top: 1.5vh;
   font-size: 3vw;
+  font-weight: 200;
   grid-area: name;
+  cursor: default;
 }
 
 .title {
   display: grid;
-  grid-template-columns: 3fr 2fr;
+  grid-template-columns: 3.5fr 2fr;
   grid-template-rows: 1fr;
   grid-template-areas:
     "name ."
