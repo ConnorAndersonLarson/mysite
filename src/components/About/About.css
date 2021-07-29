@@ -23,6 +23,11 @@ li {
   padding:0px;
 }
 
+.about {
+  grid-area: about;
+  margin: 10px 20px;
+}
+
 .skills {
   grid-area: lists;
   width: 300px;
