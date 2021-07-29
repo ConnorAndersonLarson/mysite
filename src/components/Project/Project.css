@@ -1,0 +1,57 @@
+
+
+.project {
+  display: grid;
+  grid-template-columns: 3.5fr 2fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "title ."
+    "time ."
+    "abst ."
+    "photos stack";
+  margin-top: 10px;
+}
+
+.proj-title {
+  grid-area: title;
+  margin-top: 10px;
+}
+
+.proj-breakdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-area: time;
+  margin-top: 10px;
+}
+
+.proj-team {
+  margin-left: 20px;
+}
+
+.proj-abstract {
+  grid-area: abst;
+  margin-top: 10px;
+}
+
+.proj-stack {
+  grid-area: stack;
+  margin-top: 5vh;
+  width: 30vw;
+  max-width: 350px;
+  padding: 7.5px;
+}
+
+.stack-list {
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.stack-list li {
+  margin-left: 10%;
+  max-width: 100%;
+  min-width: 40%;
+}
