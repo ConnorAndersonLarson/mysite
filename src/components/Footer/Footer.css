@@ -26,8 +26,8 @@ footer {
 .footerBtn:hover {
   font-size: 15px;
   box-shadow:
-    inset 5px 5px 5px 0 #FFF,
-    inset -5px -5px 5px 0 #D1D9E6,
-    0px 0px 0px 0 #D1D9E6,
-    0px 0px 0px 0 #FFF;
+    inset 5px 5px 5px 0 #D1D9E6,
+    inset -5px -5px 5px 0 #FFF,
+    0px 0px 0px 0 #FFF,
+    0px 0px 0px 0 #D1D9E6;
 }

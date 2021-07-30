@@ -18,6 +18,7 @@ function Project( {proj} ) {
         <h3 className="stack-header">Primary Technologies Used:</h3>
         <ul className="stack-list">{techStack}</ul>
       </section>
+      <img className="proj-gal" src={proj.gal.photos[0]} alt={proj.gal.alt[0]}/>
     </section>
   )
 }

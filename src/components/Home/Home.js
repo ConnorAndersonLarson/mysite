@@ -9,7 +9,7 @@ function Home() {
       <div className="title">
         <h2 className="caption">My Latest Project</h2>
       </div>
-      <Project proj={mainPageTestData}/>
+      <Project proj={mainPageTestData[0]}/>
     </section>
   )
 }
