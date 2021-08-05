@@ -30,7 +30,8 @@ header {
 
 .headShot {
   grid-area: photo;
-  height: auto;
+  justify-self: center;
+  height: 25vh;
   max-height: 280px;
   object-fit: contain;
   max-width: 280px;

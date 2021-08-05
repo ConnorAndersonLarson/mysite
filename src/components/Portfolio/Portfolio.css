@@ -1,6 +1,7 @@
 
 .title {
   display: grid;
+  height: 4vh;
   grid-template-columns: 3.5fr 2fr;
   grid-template-rows: auto;
   grid-template-areas:
