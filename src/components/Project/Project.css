@@ -1,15 +1,17 @@
 
 
 .project {
+  height:auto;
   display: grid;
   grid-template-columns: 3.5fr 2fr;
-  grid-template-rows: auto;
+  grid-template-rows: 8% 7% 41% 44%;
   grid-template-areas:
     "title ."
     "time side"
     "abst side"
     "photos side";
   margin-top: 10px;
+  overflow: scroll;
 }
 
 .proj-title {
@@ -95,4 +97,8 @@
 
 .proj-gal {
   grid-area: photos;
+  align-self: center;
+  justify-self: center;
+  height: 25vh;
+  margin-top: 5px;
 }

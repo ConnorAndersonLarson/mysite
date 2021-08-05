@@ -5,6 +5,9 @@ footer {
   justify-content: space-around;
   align-items: center;
   background-color: #FDF6F9;
+  position: absolute;
+  width: 100vw;
+  bottom: 0px;
 }
 
 .footerBtn {
