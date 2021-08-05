@@ -1,15 +1,15 @@
 import './Home.css';
 import Project from '../Project/Project.js';
-import {mainPageTestData} from '../../data/projects/test-data.js';
+import {currentProject} from '../../data/projects/proj-data.js';
 
 function Home() {
 
   return(
     <section>
       <div className="title">
-        <h2 className="caption">My Latest Project</h2>
+        <h2 className="caption">My Current Project</h2>
       </div>
-      <Project proj={mainPageTestData[0]}/>
+      <Project proj={currentProject[0]}/>
     </section>
   )
 }

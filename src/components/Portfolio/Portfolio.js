@@ -1,6 +1,6 @@
 import './Portfolio.css';
 import Project from '../Project/Project.js';
-import {mainPageTestData} from '../../data/projects/test-data.js';
+import {projectData} from '../../data/projects/proj-data.js';
 import { useState } from 'react';
 
 function Portfolio() {
@@ -8,10 +8,10 @@ function Portfolio() {
 
   const changeProject = (e, n) => {
     e.preventDefault();
-    if (project === mainPageTestData.length-1 && n === 2) {
+    if (project === projectData.length-1 && n === 2) {
       setProject(0)
     } else if (project === 0 && n === 0) {
-      setProject(mainPageTestData.length-1)
+      setProject(projectData.length-1)
     } else {
       setProject(project + n - 1)
     }
@@ -20,11 +20,13 @@ function Portfolio() {
   return(
     <section>
       <div className="title">
-        <button id="back" onClick={event => changeProject(event, 0)}>Back</button>
-        <h2 className="caption">Past Projects</h2>
-        <button id="forward" onClick={event => changeProject(event, 2)}>Forward</button>
+        <section className="title-interface">
+          <button className="port-btn" id="back" onClick={event => changeProject(event, 0)}>«</button>
+          <h2 className="caption">Past Projects</h2>
+          <button className="port-btn" id="forward" onClick={event => changeProject(event, 2)}>»</button>
+        </section>
       </div>
-      <Project proj={mainPageTestData[project]}/>
+      <Project proj={projectData[project]}/>
     </section>
   )
 }

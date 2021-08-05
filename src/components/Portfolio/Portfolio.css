@@ -2,7 +2,47 @@
 .title {
   display: grid;
   grid-template-columns: 3.5fr 2fr;
-  grid-template-rows: 1fr;
+  grid-template-rows: auto;
   grid-template-areas:
-    "name ."
+    "name .";
+}
+
+.title-interface {
+  grid-area: name;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.caption {
+  margin: 0px 15px;
+}
+
+.port-btn {
+  cursor: pointer;
+  font-size: 25px;
+  padding: 1px 9px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #FDF6F9;
+  line-height: 5px;
+  box-shadow:
+    inset 0px 0px 0px 0 #FFF,
+    inset 0px 0px 0px 0 #D1D9E6,
+    3px 3px 3px 0 #D1D9E6,
+    -3px -3px 3px 0 #FFF;
+  border-radius: 15px;
+  background-color: #ECF0F3;
+  transition: .1s linear 0s;
+  border-style: inherit
+}
+
+.port-btn:hover {
+  font-size: 23px;
+  padding: 1px 9px;
+  box-shadow:
+    inset 5px 5px 5px 0 #D1D9E6,
+    inset -5px -5px 5px 0 #FFF,
+    0px 0px 0px 0 #FFF,
+    0px 0px 0px 0 #D1D9E6;
 }
