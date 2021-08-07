@@ -25,7 +25,7 @@ li {
 
 .about {
   grid-area: about;
-  margin: 10px 20px;
+  margin: 20px 20px;
 }
 
 .skills {
