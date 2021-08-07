@@ -1,6 +1,10 @@
 import './Project.css'
 import React from 'react';
+import Switcher from '../Switcher/Switcher.js';
+import { useState } from 'react';
+
 function Project( {proj} ) {
+  const [image, setImage] = useState(0);
 
   const techStack = proj.stack.map((tech, i) => {
     return <React.Fragment key={i.toString()}><li>{tech}<br /></li></React.Fragment>
@@ -22,7 +26,10 @@ function Project( {proj} ) {
         {proj.isDeployed && <a href={proj.site} className="proj-btn" target="_blank" rel="noreferrer">View Site!</a>}
         {proj.codeRepo && <a href={proj.codeRepo} className="proj-btn" target="_blank" rel="noreferrer">View Code!</a>}
       </section>
-      <img className="proj-gal" src={proj.gal.photos[0]} alt={proj.gal.alt[0]}/>
+      <section className="proj-gal">
+        <img className="proj-img" src={proj.gal.photos[image]} alt={proj.gal.alt[image]}/>
+        <Switcher name={'Screenshots'} item={image} setItem={setImage} gallery={proj.gal.photos}/>
+      </section>
     </section>
   )
 }
