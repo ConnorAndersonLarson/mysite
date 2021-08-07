@@ -3,13 +3,12 @@
 .project {
   height:60vh;
   display: grid;
-  grid-template-columns: 3.5fr 2fr;
-  grid-template-rows: 8% 7% 41% 44%;
+  grid-template-columns: 1.75fr 1.75fr 2fr;
+  grid-template-rows: 8% 7% 85%;
   grid-template-areas:
-    "title ."
-    "time side"
-    "abst side"
-    "photos side";
+    "title title ."
+    "time time side"
+    "abst photos side";
   overflow: scroll;
 }
 
@@ -33,9 +32,9 @@
 
 .proj-abstract {
   grid-area: abst;
-  margin-top: 10px;
   padding: 0px 10px;
   font-size: 1.85vh;
+  align-self: center;
 }
 
 .proj-side {
@@ -99,6 +98,7 @@
   grid-area: photos;
   align-self: center;
   justify-self: center;
-  height: 25vh;
-  margin-top: 5px;
+  width: 100%;
+  max-height: 400px;
+  object-fit: scale-down;
 }
