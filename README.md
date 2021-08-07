@@ -3,8 +3,8 @@
 ## Table of Contents
 
 * [About the Project](#about-the-project)
-* [Installation](#installation)
 * [Visit The Site!](#visit)
+* [Installation](#installation)
 * [User Feedback](#user-feedback)
 * [Learning Goals](#learning-goals)
 * [Future Iterations](#future-iterations)
@@ -17,6 +17,11 @@
 
 This is my personal portfolio website! I felt like making one to have a better place to show what I'm doing and have done! This is a React based project, utilizing React Hooks and Router and currently just deployed via Heroku. This is a project that will probably always be in development as I think of fun new things to test out. As it is always being worked on feel free to contact me with any bugs or issues you might find!
 
+
+## Visit
+* [Check it out here!](http://connoralportfolio.herokuapp.com/)
+
+
 ## Installation
 
 1. Fork this repository.
@@ -25,10 +30,6 @@ This is my personal portfolio website! I felt like making one to have a better p
 4. Run `npm install` to compile the React application.
 5. Run `npm start` to see the app running locally.
 6. Run `<your text editor> .` to see the code in your text editor.
-
-
-## Visit
-* [Check it out here!](http://connoralportfolio.herokuapp.com/)
 
 
 ## Future Iterations
