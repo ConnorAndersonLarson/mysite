@@ -5,7 +5,7 @@ export const currentProject = [
   teamQuant: 1,
   stack: ['JavaScript', 'CSS3', 'HTML5', 'Cypress', 'React', 'TypeScript', 'Jest'],
   abst: "In the early planning phases of an app to track and submit work orders for Facilities Maintenance teams across multiple sites. Would allow employees to submit work orders and any maintenance techs to see orders across all sites, make notes, view maps, and provide live updates to submitters. Currently in the design/wireframe process.",
-  gal: {photos: ["/projects/placeholders/2.png"], alt: ["Meet my cat Peaky! She sits here when no project photos are available."]},
+  gal: {photos: ["/projects/placeholders/2.png", "/projects/placeholders/1.png", "/projects/placeholders/0.png"], alt: ["Meet my cat Peaky! She sits here when no project photos are available.", "Meet my cat Miso! She sits here when no project photos are available.", "Meet my friends cat Biscuit! She sits here when no project photos are available."]},
   isDeployed: false,
   site: null,
   codeRepo: null

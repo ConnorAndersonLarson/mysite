@@ -13,7 +13,7 @@ function Header() {
     <header>
       <div className="topBar">
         <h1 className="name">Connor Anderson-Larson</h1>
-        <img className="headShot" src={photo} alt="photo of Connor Anderson-Larson. White male, blue eyes, brown hair below shoulders, tall."/>
+        <img className="headShot" src={photo} alt="Connor Anderson-Larson. White male, blue eyes, brown hair below shoulders, tall."/>
       </div>
       <div className="btmbox">
         <div className="links">
