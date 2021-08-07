@@ -1,5 +1,4 @@
 import './Switcher.css';
-import { useState } from 'react';
 
 const Switcher = ( { name, item, setItem, gallery } ) => {
 

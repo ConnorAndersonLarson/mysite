@@ -98,7 +98,15 @@
   grid-area: photos;
   align-self: center;
   justify-self: center;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
 
+.switcher {
+  margin-top: 15px;
 }
 
 .proj-img {

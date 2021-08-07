@@ -28,7 +28,9 @@ function Project( {proj} ) {
       </section>
       <section className="proj-gal">
         <img className="proj-img" src={proj.gal.photos[image]} alt={proj.gal.alt[image]}/>
-        <Switcher name={'Screenshots'} item={image} setItem={setImage} gallery={proj.gal.photos}/>
+        <div className="switcher">
+          <Switcher name={'Screenshots'} item={image} setItem={setImage} gallery={proj.gal.photos}/>
+        </div>
       </section>
     </section>
   )
