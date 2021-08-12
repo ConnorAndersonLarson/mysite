@@ -35,6 +35,7 @@
   padding: 0px 20px;
   font-size: 1.85vh;
   align-self: center;
+  overflow: scroll;
 }
 
 .proj-side {
@@ -98,20 +99,27 @@
   grid-area: photos;
   align-self: center;
   justify-self: center;
-  display:flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 40px auto 40px;
+  grid-template-areas:
+    "."
+    "pics"
+    "switch";
   height: 100%;
 }
 
 .switcher {
-  margin-top: 15px;
+  align-self: center;
+  grid-area: switch;
 }
 
 .proj-img {
+  grid-area: pics;
+  align-self: center;
+  justify-self: center;
   max-width: 95%;
-  max-height: 350px;
+  max-height: 300px;
   object-fit: scale-down;
   border: 7.5px solid #FDF6F9;
   border-radius: 15px;

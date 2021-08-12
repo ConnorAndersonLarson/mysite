@@ -34,3 +34,15 @@ footer {
     0px 0px 0px 0 #FFF,
     0px 0px 0px 0 #D1D9E6;
 }
+
+.buyMeCoffee {
+  background-color: #FFDD00;
+}
+
+.buyMeCoffee:hover {
+  box-shadow:
+    inset 5px 5px 5px 0 #dabe09,
+    inset -5px -5px 5px 0 #fef6bc,
+    0px 0px 0px 0 #FFF,
+    0px 0px 0px 0 #D1D9E6;
+}
