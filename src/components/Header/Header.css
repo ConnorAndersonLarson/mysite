@@ -9,7 +9,7 @@ header {
 }
 
 .topBar {
-  background-color: #FDF6F9;
+  background-color: #faebf1;
   grid-area: top;
   height: 15vh;
   display: grid;
