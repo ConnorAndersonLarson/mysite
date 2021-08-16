@@ -4,7 +4,7 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #FDF6F9;
+  background-color: #faebf1;
   position: fixed;
   width: 100vw;
   bottom: 0px;
@@ -21,7 +21,7 @@ footer {
     3px 3px 3px 0 #D1D9E6,
     -3px -3px 3px 0 #FFF;
   border-radius: 15px;
-  background-color: #FDF6F9;
+  background-color: #faebf1;
   font-size: 17px;
   transition: .1s linear 0s;
 }
@@ -31,6 +31,18 @@ footer {
   box-shadow:
     inset 5px 5px 5px 0 #D1D9E6,
     inset -5px -5px 5px 0 #FFF,
+    0px 0px 0px 0 #FFF,
+    0px 0px 0px 0 #D1D9E6;
+}
+
+.buyMeCoffee {
+  background-color: #ffea65;
+}
+
+.buyMeCoffee:hover {
+  box-shadow:
+    inset 5px 5px 5px 0 #f7dd38,
+    inset -5px -5px 5px 0 #faf5cf,
     0px 0px 0px 0 #FFF,
     0px 0px 0px 0 #D1D9E6;
 }
