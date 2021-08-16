@@ -53,6 +53,10 @@
   padding: 7.5px;
 }
 
+.stack-header {
+
+}
+
 .stack-list {
   margin-top: 10px;
   padding-left: 0px;
@@ -60,6 +64,7 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+  text-align: left;
 }
 
 .stack-list li {

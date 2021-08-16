@@ -65,8 +65,12 @@ li {
 .lTitle {
   align-self: center;
   font-weight: normal;
+  text-align: left;
+  font-weight: bolder;
+  padding-left: 23px;
 }
 
 .list {
   padding: 0 10px 0 23px;
+  text-align: left;
 }
