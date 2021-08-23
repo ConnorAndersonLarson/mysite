@@ -1,0 +1,16 @@
+.info-list {
+  margin-top: 10px;
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.info-list li {
+  margin-left: 10%;
+  margin-bottom: 5px;
+  max-width: 100%;
+  min-width: 40%;
+}
