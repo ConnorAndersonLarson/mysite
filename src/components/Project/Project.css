@@ -57,22 +57,6 @@
 
 }
 
-.stack-list {
-  margin-top: 10px;
-  padding-left: 0px;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  text-align: left;
-}
-
-.stack-list li {
-  margin-left: 10%;
-  max-width: 100%;
-  min-width: 40%;
-}
-
 .proj-btn {
   width: 50%;
   max-width: 150px;

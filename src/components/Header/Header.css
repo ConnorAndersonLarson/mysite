@@ -16,16 +16,17 @@ header {
   grid-template-columns: 3.5fr 2fr;
   grid-template-rows: 3fr 1fr;
   grid-template-areas:
-    ". photo"
     "name photo"
+    ". photo"
 }
 
 .name {
   grid-area: name;
   font-size: 4.5vw;
   font-weight: 300;
-  margin-bottom: .5vh;
   cursor: default;
+  justify-self: center;
+  padding-top: 4vh;
 }
 
 .headShot {
@@ -85,4 +86,31 @@ header {
     inset -5px -5px 5px 0 #FDF6F9,
     0px 0px 0px 0 #FDF6F9,
     0px 0px 0px 0 #D1D9E6;
+}
+
+
+@media only screen and (max-width: 480px) {
+  .btmbox {
+    grid-template-columns: 2% 96% 2%;
+    grid-template-areas:
+      ". navigation ."
+      ". . ."
+  }
+
+  .topBar {
+    grid-template-columns: 2% 96% 2%;
+    grid-template-rows: auto;
+    grid-template-areas:
+      ". name ."
+  }
+
+  .headShot {
+    display: none;
+  }
+
+  .name {
+    font-size: 7.5vw;
+    padding-top: 5vh;
+  }
+
 }
