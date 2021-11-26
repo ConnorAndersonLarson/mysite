@@ -17,6 +17,8 @@
 
 @media only screen and (max-width: 480px) {
   .title {
-    display: flex;
+    grid-template-columns: auto;
+    grid-template-areas:
+      "name"
   }
 }
