@@ -116,3 +116,40 @@
     10px 10px 15px 0 #D1D9E6,
     -10px -10px 15px 0 #FDF6F9;
 }
+
+@media only screen and (max-width: 480px) {
+  .project {
+    height: auto;
+    display: grid;
+    grid-template-columns: 2% 96% 2%;
+    grid-template-rows: 6% 5% auto;
+    grid-template-areas:
+        ". title ."
+        ". time ."
+        ". abst ."
+        ". photos ."
+        ". side .";
+    padding-bottom: 12vh;
+    overflow: unset;
+  }
+
+  .proj-title {
+    align-self: center;
+  }
+
+  .proj-breakdown {
+      margin-top: 0px;
+  }
+
+  .proj-abstract {
+    overflow: unset;
+  }
+
+  .proj-gal {
+    grid-template-rows: 20px auto 80px;
+  }
+
+  .proj-stack {
+    width: 75vw;
+  }
+}
