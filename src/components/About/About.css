@@ -3,14 +3,6 @@ li {
   font-weight: 300;
 }
 
-.title {
-  display: grid;
-  grid-template-columns: 3.5fr 2fr;
-  grid-template-rows: 1fr;
-  grid-template-areas:
-    "name .";
-}
-
 .aboutGrid {
   overflow: scroll;
   display: grid;
@@ -73,4 +65,19 @@ li {
 .list {
   padding: 0 10px 0 23px;
   text-align: left;
+}
+
+@media only screen and (max-width: 480px) {
+  .aboutGrid {
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "about"
+      "lists";
+    padding-bottom: 12vh;
+  }
+
+  .skills {
+  justify-self: center;
+  }
 }

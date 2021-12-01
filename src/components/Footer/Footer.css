@@ -46,3 +46,11 @@ footer {
     0px 0px 0px 0 #FFF,
     0px 0px 0px 0 #D1D9E6;
 }
+
+@media only screen and (max-width: 480px) {
+  .footerBtn {
+    width: 75px;
+    height: 30px;
+    font-size: 13px;
+  }
+}

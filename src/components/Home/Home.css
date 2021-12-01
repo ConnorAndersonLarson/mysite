@@ -8,8 +8,17 @@
 
 .title {
   display: grid;
+  height: 4vh;
   grid-template-columns: 3.5fr 2fr;
-  grid-template-rows: 1fr;
+  grid-template-rows: auto;
   grid-template-areas:
     "name ."
+}
+
+@media only screen and (max-width: 480px) {
+  .title {
+    grid-template-columns: auto;
+    grid-template-areas:
+      "name"
+  }
 }
