@@ -2,6 +2,7 @@ const baseURL = 'http://localhost:3000/'
 
 describe('Home View Testing', () => {
   beforeEach(() => {
+    cy.viewport(1280, 720)
     cy.visit(`${baseURL}`);
   });
   it('Should display my name', () => {
@@ -21,6 +22,13 @@ describe('Home View Testing', () => {
   it('Should have Home selected on page load', () => {
     cy.get('[aria-current="page"]').should('contain', 'Home')
     cy.get('[aria-current="page"]').should('have.class', 'selected')
+  })
+  it('Should show images while on desktop view', () => {
+    cy.get('.headShot').should('exist')
+  })
+  it('Should not show images on mobile view', () => {
+    cy.viewport('iphone-xr')
+    cy.get('.headShot').should('have.css', 'display', 'none')
   })
   it('Should have four external links in the footer', () => {
     cy.get('.footerBtn').should('have.length', 4)
